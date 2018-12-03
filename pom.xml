@@ -16,7 +16,7 @@
 			<version>2.6</version>
 			<configuration>
 			<descriptorRefs>
-                        <descriptorRef>vish</descriptorRef>
+                        <descriptorRef>bin</descriptorRef>
                         </descriptorRefs>
 			<descriptors>
 			<descriptor>src/main/zip.xml</descriptor>
