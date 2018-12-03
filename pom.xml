@@ -2,12 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>abc.abcd</groupId>
-	<artifactId>Zip</artifactId>
-	
+	<groupId>abc.abcdef</groupId>
+	<artifactId>ZipExample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ZipTest</name>
-	<url>http://maven.apache.org</url>
+	<name>sauce_appium_junit</name>
+	<description>Sample Appium tests using JUnit</description>
+
+
   <build>
     <plugins>
 		<plugin>
@@ -28,6 +29,6 @@
 			</execution>
 			</executions>
 		</plugin>
-	</plugins>
+	  </plugins>
   </build>
 </project>
