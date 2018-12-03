@@ -16,7 +16,7 @@
 			<version>2.6</version>
 			<configuration>
 			<descriptors>
-			<descriptor>/src/main/zip.xml</descriptor>
+			<descriptor>src/main/zip.xml</descriptor>
 			</descriptors>
 			</configuration>
 			<executions>
