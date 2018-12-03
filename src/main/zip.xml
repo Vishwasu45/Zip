@@ -7,7 +7,7 @@
   </formats>
   <fileSets>
     <fileSet>
-      <directory>/main</directory>
+      <directory>/files</directory>
     </fileSet>
   </fileSets>
 </assembly>

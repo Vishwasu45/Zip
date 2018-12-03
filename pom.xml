@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.ravi</groupId>
-	<artifactId>HelloWorld</artifactId>
-	<packaging>war</packaging>
+	<groupId>abc.abcd</groupId>
+	<artifactId>Zip</artifactId>
+	
 	<version>0.0.1-SNAPSHOT</version>
-	<name>HelloWorld Maven Webapp</name>
+	<name>ZipTest</name>
 	<url>http://maven.apache.org</url>
   <build>
     <plugins>
@@ -14,7 +15,7 @@
 			<version>2.6</version>
 			<configuration>
 			<descriptors>
-			<descriptor>src/zip.xml</descriptor>
+			<descriptor>/src/main/zip.xml</descriptor>
 			</descriptors>
 			</configuration>
 			<executions>
@@ -27,6 +28,6 @@
 			</execution>
 			</executions>
 		</plugin>
-	</plugins
+	</plugins>
   </build>
 </project>
