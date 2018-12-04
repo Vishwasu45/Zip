@@ -5,10 +5,7 @@
 	<groupId>abc.abcdef</groupId>
 	<artifactId>ZipExample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sauce_appium_junit</name>
-	<description>Sample Appium tests using JUnit</description>
-
-
+	
   <build>
     <plugins>
 		<plugin>
@@ -18,6 +15,7 @@
     <descriptors>
       <descriptor>src/main/zip.xml</descriptor>
     </descriptors>
+	   <appendAssemblyId>false</appendAssemblyId>
   </configuration>
   <executions>
     <execution>
